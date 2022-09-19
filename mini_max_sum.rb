@@ -8,8 +8,7 @@ def mini_max_sum(arr)
 
   min = total_value - array[4]
   max = total_value - array[0]
-
-  return "#{min} #{max}"
+  "#{min} #{max}"
 end
 
 arr1 = [3, 5, 4, 2, 1]
