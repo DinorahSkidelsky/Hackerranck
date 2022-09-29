@@ -1,4 +1,4 @@
-def matchingStrings(strings, queries)
+def matching_strings(strings, queries)
   result = []
   queries.each do |x|
     if strings.include?(x)
@@ -8,10 +8,10 @@ def matchingStrings(strings, queries)
       result.push(0)
     end
   end
-  return result
+  result
 end
 
-strings = ["ab", "bcd", "ab", "bcd", "def"]
-queries = ["ab", "bcd", "def", "zty"]
-puts matchingStrings(strings, queries)
+strings1 = ["ab", "bcd", "ab", "bcd", "def"]
+queries1 = ["ab", "bcd", "def", "zty"]
+puts matching_strings(strings1, queries1)
 # output = [2, 2, 1, 0]
